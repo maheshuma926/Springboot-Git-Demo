@@ -9,7 +9,7 @@ public class SpringBootGitDemoApplication {
 
 	public static void main(String[] args) {
 		System.out.println("*** Inside SpringBootGitDemoApplication ***");
-		addData("Spring Git Demo");
+		addData(Constants.DATA_TYPE);
 		SpringApplication.run(SpringBootGitDemoApplication.class, args);
 		
 	}
