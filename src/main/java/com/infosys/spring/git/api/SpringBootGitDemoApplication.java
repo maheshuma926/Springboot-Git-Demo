@@ -24,6 +24,11 @@ public class SpringBootGitDemoApplication {
 
 	}
 
+	public void addedMethod() {
+		System.out.println("New method added");
+	}
+	
+
 	public static void addData(String data) {
 		System.out.println("data= " + data);
 	}
